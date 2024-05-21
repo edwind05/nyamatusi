@@ -1,0 +1,63 @@
+/* WILDLIFE SIGHTING SECTION */
+#text {
+    padding-top: 150px;
+}
+.head-recent{
+    margin-bottom: 110px;
+}
+#p1 {
+    margin-top: 70px;
+}
+#p2 {
+    margin-top: 120px;
+}
+#p3 {
+    margin-top: 30px;
+}
+#p4 {
+    margin-top: -120px;
+    margin-bottom: 25px;
+}
+#p5 {
+    height: 500px;
+    width: 230px;
+    margin-top: -120px;
+}
+
+@media only screen and (max-width: 768px) {
+    #images{
+        margin: 0;
+    }
+
+    #images #p1{
+        margin: 0;
+    }
+
+    #images #p2{
+        margin: 0;
+    }   
+    
+    #images #p3{
+        margin: 0;
+    }
+
+    #images #p4{
+        margin: 0;
+        display: flex;
+        
+    }
+
+    #images #p5{
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+
+
+
+
+}
+
+#images{
+    justify-content: center;
+}
